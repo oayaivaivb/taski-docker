@@ -13,7 +13,7 @@ jobs:
         image: postgres:13.10
         env:
           POSTGRES_USER: django_user
-          POSTGRES_PASSWORD: <PASSWORD>   # замените на свой пароль
+          POSTGRES_PASSWORD: test_password   # замените на свой пароль
           POSTGRES_DB: django_db
         ports:
           - 5432:5432

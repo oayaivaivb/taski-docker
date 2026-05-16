@@ -1,5 +1,4 @@
 import os
-
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -9,8 +8,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'backend', 'yataski.sytes.net', '81.26.186.200']sudo docker compose -f docker-compose.production.yml up -d
-
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'backend', 'yataski.sytes.net', '81.26.186.200']
 
 # Application definition
 
